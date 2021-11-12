@@ -1,0 +1,2 @@
+# Power
+set_prop(vendor_init, vendor_power_prop)
