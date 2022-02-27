@@ -361,4 +361,8 @@
 
      <!-- Determines whether the shell features all run on another thread. -->
      <bool name="config_enableShellMainThread">true</bool>
+
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
 </resources>
