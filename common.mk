@@ -285,10 +285,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.1-service.xiaomi_sm8350
+endif
 
 # Media
 PRODUCT_PACKAGES += \
