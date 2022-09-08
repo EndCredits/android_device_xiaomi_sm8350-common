@@ -56,6 +56,9 @@
 # Powershare
 /vendor/bin/hw/vendor\.lineage\.powershare@1\.0-service\.xiaomi                           u:object_r:hal_lineage_powershare_default_exec:s0
 
+# Power
+/vendor/bin/hw/android\.hardware\.power-service\.lahaina-libperfmgr          u:object_r:hal_power_default_exec:s0
+
 # Sensors
 /sys/bus/iio/devices                                                                                                            u:object_r:vendor_sysfs_iio:s0
 /sys/devices/platform/us_prox.0/iio:device1(/.*)?                                                                               u:object_r:vendor_sysfs_iio:s0
