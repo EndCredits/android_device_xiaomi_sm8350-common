@@ -73,6 +73,7 @@ function blob_fixup() {
             ;;
         vendor/bin/hw/dolbycodec2)
             patchelf --replace-needed libavservices_minijail_vendor.so libavservices_minijail.so "${2}"
+            patchelf --replace-needed libcodec2_hidl@1.0.so libcodec2_hidl@1.0.stock.so "${2}"
             ;;
         vendor/lib64/android.hardware.secure_element@1.0-impl.so)
             "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
@@ -81,6 +82,13 @@ function blob_fixup() {
             sed -i "/    group system/ a\    disabled" "${2}"
             ;;
 
+        vendor/lib/libcodec2_hidl@1.0.stock.so)
+            patchelf --set-soname libcodec2_hidl@1.0.stock.so "${2}"
+            patchelf --replace-needed libcodec2_vndk.so libcodec2_vndk.stock.so "${2}"
+            ;;
+        vendor/lib/libcodec2_vndk.stock.so)
+            patchelf --set-soname libcodec2_vndk.stock.so "${2}"
+            ;;
     esac
 }
 
