@@ -384,6 +384,10 @@ vendor/firmware/a660_zap.b02
 vendor/firmware/a660_zap.elf
 vendor/firmware/a660_zap.mdt
 
+# Health
+vendor/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so
+
 # IMS
 -system_ext/priv-app/ims/ims.apk|efd985de6dd8e3f5f5481829abfb81728fa47e24
 system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar
