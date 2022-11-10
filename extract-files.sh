@@ -82,12 +82,12 @@ function blob_fixup() {
             sed -i "s/\x73\x74\x5F\x6C\x69\x63\x65\x6E\x73\x65\x2E\x6C\x69\x63/\x63\x61\x6D\x65\x72\x61\x5F\x63\x6E\x66\x2E\x74\x78\x74/g" "${2}"
             ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
-            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/8D0A0094AE1640F9/1F2003D5AE1640F9/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
-            mv "${TMPDIR}/${1##*/}" "${2}"
+            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/8D0A0094AE1640F9/1F2003D5AE1640F9/g" | xxd -r -p > "${EXTRACT_TMP_DIR}/${1##*/}"
+            mv "${EXTRACT_TMP_DIR}/${1##*/}" "${2}"
             ;;
         vendor/lib64/hw/camera.xiaomi.so)
-            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/5E070094881640F9/1F2003D5881640F9/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
-            mv "${TMPDIR}/${1##*/}" "${2}"
+            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/5E070094881640F9/1F2003D5881640F9/g" | xxd -r -p > "${EXTRACT_TMP_DIR}/${1##*/}"
+            mv "${EXTRACT_TMP_DIR}/${1##*/}" "${2}"
             ;;
     esac
 }
