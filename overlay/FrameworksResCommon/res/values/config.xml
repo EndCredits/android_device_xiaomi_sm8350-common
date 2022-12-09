@@ -358,4 +358,7 @@
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
+
+     <!-- Determines whether the shell features all run on another thread. -->
+     <bool name="config_enableShellMainThread">true</bool>
 </resources>
