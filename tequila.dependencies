@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "platform_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "platform_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350"
+  },
+  {
+    "repository": "platform_vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "remote": "tequila-gitlab"
+  }
+]
