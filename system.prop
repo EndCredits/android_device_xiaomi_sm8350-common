@@ -1,3 +1,6 @@
+# Bluetooth
+vendor.bluetooth.soc=hastings
+
 # Camera
 vendor.camera.aux.packagelist=com.android.camera
 

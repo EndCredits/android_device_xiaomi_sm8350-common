@@ -104,7 +104,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
     android.hardware.bluetooth.audio-impl \
     com.dsi.ant@1.0.vendor \
     libldacBT_bco \
