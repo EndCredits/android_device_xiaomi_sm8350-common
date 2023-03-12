@@ -305,15 +305,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
-# Kernel
-TARGET_KERNEL_DIR ?= device/xiaomi/renoir-kernel
-LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
-
-PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
-
-# Kernel Headers
-PRODUCT_VENDOR_KERNEL_HEADERS += device/xiaomi/renoir-kernel/kernel-headers
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
