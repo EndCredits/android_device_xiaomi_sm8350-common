@@ -1,4 +1,4 @@
-# Device proprietary files - from renoir MIUI V14.0.6.0.TKICNXM package, unless pinned
+# Device proprietary files - from renoir MIUI V14.0.8.0.TKICNXM package, unless pinned
 
 # ADSP
 vendor/bin/adsprpcd
