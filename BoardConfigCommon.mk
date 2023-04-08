@@ -76,7 +76,7 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/hidl/compatibility_matrix.xml
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/hidl/xiaomi_framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml \
+    vendor/derp/config/device_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
