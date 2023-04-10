@@ -118,9 +118,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.supports_background_blur=1
 
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.launcher.blur.appLaunch=0
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
