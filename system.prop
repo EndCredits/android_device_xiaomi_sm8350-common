@@ -4,7 +4,7 @@ vendor.bluetooth.soc=hastings
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam, com.android.camera
 persist.camera.privapp.list=org.codeaurora.snapcam, com.android.camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.android.GoogleCamera,com.google.android.apps.cameralite
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.android.GoogleCamera
 
 # Charger
 ro.charger.enable_suspend=true
