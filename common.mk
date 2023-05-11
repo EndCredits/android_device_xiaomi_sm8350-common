@@ -459,7 +459,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
-    CarrierConfigOverlay \
+    CarrierConfigResCommon \
     libjson \
     librmnetctl
 
@@ -574,7 +574,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
+    WifiResCommon \
     wpa_cli \
     wpa_supplicant \
     wpa_supplicant.conf
