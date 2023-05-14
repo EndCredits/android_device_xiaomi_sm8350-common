@@ -108,6 +108,8 @@ BOARD_KERNEL_CMDLINE += iptable_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
 # BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
+TARGET_KERNEL_CLANG_VERSION := nathan
+
 # LiveDisplay
 ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
 SOONG_CONFIG_NAMESPACES += livedisplay
