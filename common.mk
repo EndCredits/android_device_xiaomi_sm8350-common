@@ -23,6 +23,9 @@ $(call inherit-product, vendor/xiaomi/sm8350-common/sm8350-common-vendor.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Inherit from Paranoid Android
+$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 

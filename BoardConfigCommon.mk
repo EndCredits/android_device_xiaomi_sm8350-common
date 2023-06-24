@@ -72,16 +72,15 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 4.0
 
 # HIDL
-DEVICE_MATRIX_FILE := $(COMMON_PATH)/hidl/compatibility_matrix.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/hidl/compatibility_matrix.xml
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/hidl/vendor_framework_compatibility_matrix.xml \
     $(COMMON_PATH)/hidl/xiaomi_framework_compatibility_matrix.xml \
     $(COMMON_PATH)/hidl/framework_compatibility_matrix.xml \
-    vendor/derp/config/device_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 
-DEVICE_MANIFEST_FILE := \
+DEVICE_MANIFEST_FILE += \
     $(COMMON_PATH)/hidl/manifest_lahaina.xml \
     $(COMMON_PATH)/hidl/manifest_xiaomi.xml
 
@@ -196,9 +195,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2023-07-01
-
-# Sepolicy
-include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
