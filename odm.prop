@@ -1,2 +1,12 @@
-# Qcom
-ro.vendor.qti.va_odm.support=1
+aaudio.mmap_policy=1
+persist.vendor.audio.speaker.prot.enable=false
+persist.vendor.audio.vbat.enabled=false
+persist.vendor.audio.bcl.enabled=false
+ro.vendor.audio.sdk.fluencetype=fluence
+vendor.audio.offload.track.enable=false
+vendor.audio.adm.buffering.ms=6
+vendor.audio.hal.output.suspend.supported=false
+vendor.audio.feature.dynamic_ecns.enable=false
+vendor.audio.feature.spkr_prot.enable=false
+vendor.audio.feature.power_mode.enable=false
+vendor.audio.offload.buffer.size.kb=256
