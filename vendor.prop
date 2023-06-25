@@ -74,12 +74,6 @@ vendor.display.enable_posted_start_dyn=2
 vendor.display.qdcm.mode_combine=2
 vendor.display.use_layer_ext=0
 
-# Media
-debug.stagefright.ccodec=4
-debug.stagefright.omx_default_rank=0
-media.stagefright.thumbnail.prefer_hw_codecs=true
-ro.config.vc_call_vol_steps=11
-
 # NFC
 ro.vendor.nfc.repair=1
 ro.vendor.se.type=eSE,HCE,UICC
