@@ -27,9 +27,6 @@ persist.dbg.wfc_avail_ovr=1
 # Iorap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
-# Lights
-ro.sf.force_hwc_brightness=1
-
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
