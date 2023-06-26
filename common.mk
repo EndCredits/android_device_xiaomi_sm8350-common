@@ -335,7 +335,7 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
 # Ueventd
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
+    $(LOCAL_PATH)/rootdir/etc/ueventd.lahaina.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.lahaina.rc
 
 # Update engine
 PRODUCT_PACKAGES += \
