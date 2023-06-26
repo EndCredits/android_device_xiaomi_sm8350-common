@@ -280,6 +280,14 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 
+# Paranoid Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sensor.pickup=xiaomi.sensor.pickup \
+    ro.sensor.pickup.lower.value=2
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
