@@ -272,12 +272,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
-    FrameworksResCommon \
-    SettingsResCommon \
-    SystemUIResCommon \
-    TelephonyResCommon \
-    WifiResCommon
+    LahainaCarrierConfigResCommon \
+    LahainaFrameworksResCommon \
+    LahainaSettingsResCommon \
+    LahainaSystemUIResCommon \
+    LahainaWifiResCommon
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -305,6 +304,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     media \
     nfc \
+    overlay \
     perf
 
 # Recovery

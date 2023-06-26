@@ -5,6 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIResCommon",
+    name: "LahainaCarrierConfigResCommon",
+    aaptflags: ["--keep-raw-values"],
     product_specific: true,
 }
