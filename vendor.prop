@@ -99,6 +99,9 @@ persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
+# SoC
+ro.soc.model=SM8350
+
 # Storage
 ro.incremental.enable=yes
 
