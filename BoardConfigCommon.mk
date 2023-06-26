@@ -62,16 +62,16 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 4.0
 
 # HIDL
-DEVICE_MATRIX_FILE += $(COMMON_PATH)/hidl/compatibility_matrix.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/configs/hidl/compatibility_matrix.xml
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(COMMON_PATH)/hidl/vendor_framework_compatibility_matrix.xml \
-    $(COMMON_PATH)/hidl/xiaomi_framework_compatibility_matrix.xml \
-    $(COMMON_PATH)/hidl/framework_compatibility_matrix.xml
+    $(COMMON_PATH)/configs/hidl/vendor_framework_compatibility_matrix.xml \
+    $(COMMON_PATH)/configs/hidl/xiaomi_framework_compatibility_matrix.xml \
+    $(COMMON_PATH)/configs/hidl/framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE += \
-    $(COMMON_PATH)/hidl/manifest_lahaina.xml \
-    $(COMMON_PATH)/hidl/manifest_xiaomi.xml
+    $(COMMON_PATH)/configs/hidl/manifest_lahaina.xml \
+    $(COMMON_PATH)/configs/hidl/manifest_xiaomi.xml
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -105,7 +105,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 # SOONG_CONFIG_livedisplay += enabled
 # SOONG_CONFIG_livedisplay_enabled := true
 # DEVICE_MANIFEST_FILE += \
-#     $(COMMON_PATH)/hidl/manifest_lineage.xml
+#     $(COMMON_PATH)/configs/hidl/manifest_lineage.xml
 # endif
 
 # NFC
@@ -163,10 +163,10 @@ SOONG_CONFIG_XIAOMI_POWERSHARE := WIRELESS_TX_ENABLE_PATH
 SOONG_CONFIG_XIAOMI_POWERSHARE_WIRELESS_TX_ENABLE_PATH := /sys/class/qcom-battery/reverse_chg_mode
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+TARGET_ODM_PROP += $(COMMON_PATH)/props/odm.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/props/system.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/props/system_ext.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/props/vendor.prop
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
