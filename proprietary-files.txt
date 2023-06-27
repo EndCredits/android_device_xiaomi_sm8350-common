@@ -333,7 +333,7 @@ vendor/lib64/unnhal-acc-htp.so
 
 # NFC
 vendor/lib/libsn100u_fw.so
-vendor/lib64/libsn100u_fw.so
+vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
 # OMX
 vendor/lib/libAlacSwDec.so
