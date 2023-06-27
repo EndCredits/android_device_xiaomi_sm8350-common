@@ -29,6 +29,9 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Platform
+TARGET_BOARD_PLATFORM := lahaina
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt
 
