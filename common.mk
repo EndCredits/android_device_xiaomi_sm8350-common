@@ -32,6 +32,7 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
+# Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt
 
@@ -293,6 +294,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.sensor.pickup=xiaomi.sensor.pickup \
     ro.sensor.pickup.lower.value=2
 
+# QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     alarm \
