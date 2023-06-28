@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor \
     vendor.qti.hardware.display.mapper@1.1.vendor \
-    libjsoncpp
+    libjsoncpp \
+    libjsoncpp_ndk
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.xml \
