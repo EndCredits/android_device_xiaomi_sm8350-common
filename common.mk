@@ -244,8 +244,7 @@ PRODUCT_COPY_FILES += \
 
 # Mlipay
 PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.mlipay@1.1.vendor \
-    vendor.xiaomi.hardware.mtdservice@1.0.vendor
+    vendor.xiaomi.hardware.mlipay@1.1.vendor
 
 # Native libraries whitelist
 PRODUCT_COPY_FILES += \
