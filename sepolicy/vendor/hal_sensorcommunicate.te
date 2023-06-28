@@ -18,8 +18,6 @@ allow vendor_hal_sensorcommunicate_server vendor_hal_sensorcommunicate_client:fd
 
 allow vendor_hal_sensorcommunicate_default fwk_sensor_hwservice:hwservice_manager find;
 
-allow vendor_hal_sensorcommunicate_default vendor_hal_citsensorservice_xiaomi_hwservice:hwservice_manager find;
-
 allow vendor_hal_sensorcommunicate_default system_server:binder call;
 allow vendor_hal_sensorcommunicate_default system_server:binder transfer;
 
