@@ -518,12 +518,6 @@ vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
-# Sensor communicate
-vendor/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service
-vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.xiaomi.sensor.communicate@1.0_manifest.xml
-vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so
-
 # Sensors (citsensor)
 vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
