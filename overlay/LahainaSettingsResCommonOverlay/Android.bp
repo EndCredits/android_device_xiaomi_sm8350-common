@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LahainaSystemUIResCommon",
+    name: "LahainaSettingsResCommonOverlay",
     product_specific: true,
 }

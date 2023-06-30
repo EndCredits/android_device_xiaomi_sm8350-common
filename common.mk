@@ -237,18 +237,12 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
 PRODUCT_PACKAGES += \
-    LahainaCarrierConfigResCommon \
-    LahainaFrameworksResCommon \
-    LahainaSettingsResCommon \
-    LahainaSystemUIResCommon \
-    LahainaWifiResCommon
+    LahainaCarrierConfigResCommonOverlay \
+    LahainaFrameworksResCommonOverlay \
+    LahainaSettingsResCommonOverlay \
+    LahainaSystemUIResCommonOverlay \
+    LahainaWifiResCommonOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
