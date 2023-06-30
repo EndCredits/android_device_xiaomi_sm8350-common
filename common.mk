@@ -203,9 +203,6 @@ PRODUCT_PACKAGES += \
     libstagefright_foundation \
     libsfplugin_ccodec_utils.vendor
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
-
 # Copy all files under media/lahaina to /vendor/etc
 $(call find-copy-subdir-files, *, $(LOCAL_PATH)/configs/media/lahaina/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
