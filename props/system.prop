@@ -15,6 +15,9 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
+# Iorap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # NFC
 ro.nfc.port=I2C
 
