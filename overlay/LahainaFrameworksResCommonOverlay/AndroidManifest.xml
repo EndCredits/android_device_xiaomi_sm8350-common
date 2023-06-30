@@ -9,6 +9,6 @@
 
     <overlay
         android:isStatic="true"
-        android:priority="550"
+        android:priority="850"
         android:targetPackage="android" />
 </manifest>
