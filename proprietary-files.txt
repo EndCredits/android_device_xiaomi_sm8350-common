@@ -266,7 +266,9 @@ vendor/etc/media/video_system_specs.json
 vendor/etc/media_lahaina/video_system_specs.json
 vendor/etc/media_shima_v1/video_system_specs.json
 vendor/etc/media_yupik_v1/video_system_specs.json
+vendor/lib/libmm-color-convertor.so
 vendor/lib/libmmosal.so
+vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal.so
 
 # Media (Dolby Vision)
@@ -313,6 +315,7 @@ vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
+vendor/lib/libFlacSwDec.so
 vendor/lib/libMpeghSwEnc.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
@@ -569,6 +572,7 @@ vendor/etc/init/vppservice.rc
 vendor/lib/libvppclient.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
+vendor/lib/libvppimmotion.so
 vendor/lib/libvpplibrary.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
@@ -577,6 +581,7 @@ vendor/lib/vendor.qti.hardware.vpp@2.0.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphcp.so
 vendor/lib64/libvpphvx.so
+vendor/lib64/libvppimmotion.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
