@@ -1,1 +1,5 @@
 allow vendor_qti_init_shell proc_page_cluster:file rw_file_perms;
+
+allow vendor_qti_init_shell sysfs:file { write };
+allow vendor_qti_init_shell usb_device:dir { read open search getattr setattr };
+allow vendor_qti_init_shell device:dir { read open };
