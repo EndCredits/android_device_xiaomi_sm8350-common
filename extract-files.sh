@@ -74,6 +74,10 @@ function blob_fixup() {
         vendor/lib64/android.hardware.secure_element@1.0-impl.so)
             "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
             ;;
+        vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc)
+            sed -i "/    group system/ a\    disabled" "${2}"
+            ;;
+
     esac
 }
 
