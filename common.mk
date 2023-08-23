@@ -332,7 +332,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
 
 # Copy all files under media/lahaina to /vendor/etc
-$(call find-copy-subdir-files,*,$(LOCAL_PATH)/meida/lahaina/,$(TARGET_COPY_OUT_VENDOR)/etc)
+$(call find-copy-subdir-files, *, $(LOCAL_PATH)/media/lahaina/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/shima/media_codecs_performance_shima_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_shima_v1.xml \
