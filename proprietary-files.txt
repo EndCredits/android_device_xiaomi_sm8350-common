@@ -405,21 +405,21 @@ vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libmmosal.so
 
-# Media (Dolby Vision)
-vendor/bin/hw/dolbycodec2
-vendor/etc/dolby_vision.cfg
-vendor/etc/init/dolbycodec2.rc
-vendor/lib/c2.dolby.avc.dec.so
-vendor/lib/c2.dolby.avc.sec.dec.so
-vendor/lib/c2.dolby.client.so
-vendor/lib/c2.dolby.egl.so
-vendor/lib/c2.dolby.hevc.dec.so
-vendor/lib/c2.dolby.hevc.sec.dec.so
-vendor/lib/c2.dolby.store.so
-vendor/lib/libcodec2_soft_common.so
-vendor/lib/libdolbyottcameracontrol.so
-vendor/lib/libdovi.so
-vendor/lib/libsfplugin_ccodec_utils.so
+# Media (Dolby Vision) - from renoir V14.0.10.0
+vendor/bin/hw/dolbycodec2|186f07732444177f5d719c31d99a7420a54cb025
+vendor/etc/dolby_vision.cfg|159590bfcc05b89c46a64a078fd34d7bda00c1cf
+vendor/etc/init/dolbycodec2.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
+vendor/lib/c2.dolby.avc.dec.so|23ad4243a0f573897eb456db214e6ead4d72789c
+vendor/lib/c2.dolby.avc.sec.dec.so|de726a68a30a8a8f2b2099358d80a7e8831a1f0c
+vendor/lib/c2.dolby.client.so|33b96ef37f0708f44b3726ef376bc64722d2ed58
+vendor/lib/c2.dolby.egl.so|f32eedbc78270fe607ac29244b2f19d6aef46984
+vendor/lib/c2.dolby.hevc.dec.so|46b7852a2f74439c79d558fed875b744f2b56ff0
+vendor/lib/c2.dolby.hevc.sec.dec.so|209301f238b3eba6ea51594fc8b202527b7234ec
+vendor/lib/c2.dolby.store.so|08d26054d08062a508e53ad2751baa8590a6d3cf
+vendor/lib/libcodec2_soft_common.so|7dd4e5f4ad411365ba97e0f2e5aa790971b3ff03
+vendor/lib/libdolbyottcameracontrol.so|3758b2541004c5d9a2935ed134afbabb66d6a315
+vendor/lib/libdovi.so|d88f42c44f420cc04fb019dd2f990ed304c4c7c0
+vendor/lib/libsfplugin_ccodec_utils.so|7d2c82483128507e5df7fef190c8d8a7cda46fb7
 
 # Mlipay
 vendor/bin/mlipayd@1.1
