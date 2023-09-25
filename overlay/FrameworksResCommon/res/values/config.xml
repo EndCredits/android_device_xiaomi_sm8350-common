@@ -637,4 +637,9 @@
     <!-- Auto-brightness sensor type string -->
     <string name="config_displayLightSensorType">android.sensor.light</string>
 
+    <!-- Whether the device enable the standalone (SA) mode of 5G NR.-->
+    <bool name="config_telephony5gStandalone">true</bool>
+
+    <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
+    <bool name="config_telephony5gNonStandalone">true</bool>
 </resources>
