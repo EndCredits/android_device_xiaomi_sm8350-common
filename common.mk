@@ -390,6 +390,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
 # NFC
