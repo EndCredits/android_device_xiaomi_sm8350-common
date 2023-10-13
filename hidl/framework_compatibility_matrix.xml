@@ -1,9 +1,19 @@
 <compatibility-matrix version="1.0" type="framework">
-<hal format="hidl" optional="true">
+    <hal format="hidl" optional="true">
     <name>android.hardware.graphics.allocator</name>
     <interface>
         <name>IAllocator</name>
         <instance>default</instance>
     </interface>
-</hal>
+    </hal>
+    <!-- Data IWlan HAL service -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.data.iwlan</name>
+        <transport>hwbinder</transport>
+        <interface>
+            <name>IIWlan</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
