@@ -81,14 +81,6 @@ function blob_fixup() {
         vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc)
             sed -i "/    group system/ a\    disabled" "${2}"
             ;;
-
-        vendor/lib/libcodec2_hidl@1.0.stock.so)
-            patchelf --set-soname libcodec2_hidl@1.0.stock.so "${2}"
-            patchelf --replace-needed libcodec2_vndk.so libcodec2_vndk.stock.so "${2}"
-            ;;
-        vendor/lib/libcodec2_vndk.stock.so)
-            patchelf --set-soname libcodec2_vndk.stock.so "${2}"
-            ;;
     esac
 }
 
