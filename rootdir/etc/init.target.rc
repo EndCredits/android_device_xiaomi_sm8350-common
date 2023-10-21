@@ -178,6 +178,10 @@ on boot
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/finger_irq
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/power_cfg
 
+    # Allow system to read measured screen FPS
+    chown system graphics /sys/class/drm/card0/sde-crtc-0/measured_fps
+    chmod 0666 /sys/class/drm/card0/sde-crtc-0/measured_fps
+
 on init && property:ro.boot.mode=charger
     mount_all /vendor/etc/charger_fstab.qcom --early
     write /sys/kernel/boot_adsp/boot 1
