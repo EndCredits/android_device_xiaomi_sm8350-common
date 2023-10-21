@@ -202,7 +202,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstagefright_omx \
     libstagefright_foundation \
-    libsfplugin_ccodec_utils.vendor
+    libsfplugin_ccodec_utils.vendor \
+    libavservices_minijail_vendor
 
 # Copy all files under media/lahaina to /vendor/etc
 $(call find-copy-subdir-files, *, $(LOCAL_PATH)/configs/media/lahaina/,$(TARGET_COPY_OUT_VENDOR)/etc)
