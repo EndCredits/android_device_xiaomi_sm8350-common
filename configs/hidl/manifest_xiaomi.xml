@@ -17,4 +17,13 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>vendor.xiaomi.sensor.communicate</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISensorCommunicate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
