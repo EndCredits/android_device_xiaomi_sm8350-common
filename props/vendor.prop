@@ -80,8 +80,6 @@ ro.vendor.nfc.repair=1
 ro.vendor.se.type=eSE,HCE,UICC
 
 # Radio
-keyguard.no_require_sim=true
-persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.data_ltd_sys_ind=1
 persist.vendor.radio.dynamic_load_mbn=3
@@ -91,15 +89,13 @@ persist.vendor.radio.force_ltd_sys_ind=1
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.hidl_dev_service=true
 persist.vendor.radio.manual_nw_rej_ct=1
-persist.vendor.radio.mbn_trace=true
 persist.vendor.radio.redir_party_num=1
-ro.telephony.call_ring.multiple=false
-ro.telephony.default_cdma_sub=0
-ro.vendor.radio.5g=3
+persist.vendor.radio.report_codec=1
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.on_change_sample_period=true
+persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.sync_request=true
 
 # SoC
