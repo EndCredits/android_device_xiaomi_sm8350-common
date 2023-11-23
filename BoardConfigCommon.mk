@@ -187,6 +187,9 @@ SOONG_CONFIG_xiaomiSm8350Vars += \
     vibrator_use_effect_stream
 SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream ?= false
 
+# Userfaultfd GC
+OVERRIDE_ENABLE_UFFD_GC := true
+
 # UFS
 SOONG_CONFIG_NAMESPACES += ufsbsg
 SOONG_CONFIG_ufsbsg += ufsframework
