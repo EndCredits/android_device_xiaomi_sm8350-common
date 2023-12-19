@@ -302,16 +302,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
-# Lineage Healthi
-# PRODUCT_PACKAGES += \
-#     vendor.lineage.health-service.default
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
 
-# ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
+ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
 # LiveDisplay
-# PRODUCT_PACKAGES += \
-#     vendor.lineage.livedisplay@2.0-service-sdm \
-#     vendor.lineage.livedisplay@2.1-service.xiaomi_sm8350
-# endif
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.1-service.xiaomi_sm8350
+endif
 
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
