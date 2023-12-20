@@ -4,6 +4,10 @@ type thermal_data_file, data_file_type, file_type;
 
 init_daemon_domain(mi_thermald)
 
+# Allow mi_thermald to set thermal path prop
+vendor_public_prop(vendor_xm_thermal_prop)
+set_prop(mi_thermald, vendor_xm_thermal_prop)
+
 r_dir_file(mi_thermald, sysfs)
 r_dir_file(mi_thermald, sysfs_leds)
 r_dir_file(mi_thermald, sysfs_thermal)
