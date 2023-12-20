@@ -300,10 +300,6 @@ vendor/lib64/libgsl.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 
-# Health
-vendor/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so
-
 # HotwordEnrollment - from haydn V14.0.3.0.TKKMIXM
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|8ade0dc8f37d68d7e7deaf162cf8badded474673
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|ecb7a72da92f5fdbf8b842f6fd0043623f508f5e
