@@ -171,7 +171,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.system.qti \
     libqdMetaData \
     libqdMetaData.system \
-    libtinyxml \
     memtrack.default
 
 PRODUCT_COPY_FILES += \
