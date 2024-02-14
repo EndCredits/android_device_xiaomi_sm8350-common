@@ -1,0 +1,3 @@
+get_prop(vendor_poweroptservice, vendor_soc_name_prop)
+
+allow vendor_poweroptservice vendor_soc_name_prop:file read;
