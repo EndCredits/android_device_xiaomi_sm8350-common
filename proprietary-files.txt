@@ -476,8 +476,8 @@ vendor/bin/hw/vendor.qti.psiclient@1.0-service|122d6bcff4d828885ae34d0564be4a4f3
 vendor/bin/msm_irqbalance|010cd4c5a11dd3b9b2c8f21ae83684ab2d175358
 vendor/bin/poweropt-service|1724994ff3f3e695eae1233a20d33e1db9656154
 vendor/bin/vendor.qti.qspmhal-service|27f34af67bed6964f22bde634d2e26717de78658
-vendor/etc/init/poweropt-service.rc|ab71ab0828fb67e9950b51220b61c3aad10985d0
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+vendor/etc/init/poweropt-service.rc|14e045efddd40f4130d6922e5799c259de9fb5ce
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|64df93ffd7f27c067996512d146131a4bc908acd
 vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc|fc1cd8acaa4c8c7760c3da368685bbfd870919b8
 vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
 vendor/etc/init/vendor.qti.memory.pasrmanager-service.rc|31bc73a550d7af8f22b3aa5b2f08eb22249d75f4
