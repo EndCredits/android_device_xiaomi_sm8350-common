@@ -362,7 +362,6 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
 # IRQ balance
-vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
 # Keymaster
