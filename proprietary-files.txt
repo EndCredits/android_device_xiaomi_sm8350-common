@@ -269,6 +269,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # Graphics (Adreno) - from mondrian MIUI V14.0.5.0.TMNMIXM
+vendor/app/com.qualcomm.qti.gpudrivers.taro.api31/com.qualcomm.qti.gpudrivers.taro.api31.apk|20bf32c315c24ba11bb370c83052a8ee3776865f
 vendor/gpu/kbc/sequence_manifest.bin|6a049950f56399d747e3a84415fc0b42592c3e22
 vendor/gpu/kbc/unified_kbcs_32.bin|28ee1f2a696ba6e34ac332c9a7acdf3653939229
 vendor/gpu/kbc/unified_kbcs_64.bin|9a8235b53b51ee6e7c81b7049830283a59ac6ead
