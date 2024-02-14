@@ -14,6 +14,9 @@
 # limitations under the License.
 
 on property:vendor.post_boot.parsed=1
+    write /dev/cpuset/background/cpus 0-1
+    write /dev/cpuset/system-background/cpus 0-2
+    write /dev/cpuset/foreground/cpus 0-6
 
 # CPU Boost
     write /sys/devices/system/cpu/cpu_boost/input_boost_ms 200
