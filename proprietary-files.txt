@@ -268,37 +268,32 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
-# Graphics
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/hw/vulkan.adreno.so
-vendor/lib/libC2D2.so
-vendor/lib/libCB.so
-vendor/lib/libOpenCL.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libc2d30_bltlib.so
-vendor/lib/libgsl.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/hw/vulkan.adreno.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libgsl.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
+# Graphics (Adreno) - from CLO 615.80
+vendor/gpu/kbc/sequence_manifest.bin|17e1f9149826ef478502c750bcf9352274097c80
+vendor/gpu/kbc/unified_kbcs_32.bin|aa7b4e916fb3fab8df7700deb458d0726a549482
+vendor/gpu/kbc/unified_kbcs_64.bin|bdfadc6b8e03d7da5b8d31b4f7688e7dba4b07ce
+vendor/gpu/kbc/unified_ksqs.bin|e3470ad9fc644aea9c02dee948bb210149408dda
+vendor/lib64/egl/eglSubDriverAndroid.so|167c573149e046b23280cba9f778861f5f6a5a0c
+vendor/lib64/egl/libEGL_adreno.so|579730142b5d41bd890530861cb8efdeef4b83e9
+vendor/lib64/egl/libGLESv1_CM_adreno.so|29a64765d2b5d35261ec98ed68031d5699954307
+vendor/lib64/egl/libGLESv2_adreno.so|f235353c203c58c6a5a46541635f6b10e7d403f6
+vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so|996ad971d7faa49ff7eafb4fd4172d7b0b97afc3
+vendor/lib64/egl/libq3dtools_adreno.so|7b1bca9132cb906613aac175b2fa9cc3eda3a55f
+vendor/lib64/egl/libq3dtools_esx.so|427eafa5f537e8cea4414d7c844a64373569c406
+vendor/lib64/libCB.so|9476548f391a2f5a938cdf35f52e7842dcf6a45e
+vendor/lib64/libOpenCL.so|454b8aaada3a5c449ae90e2232eb761e743fda06
+vendor/lib64/libadreno_app_profiles.so|d269f827f4d8a7a5b8285be842d9d0a9c00149e8
+vendor/lib64/libadreno_utils.so|ad5198664fa2c1f452dd26f6f3c5f5d733ca96ed
+vendor/lib64/libgpudataproducer.so|069924cf3c7f49d6a1dd6c2bca9d95534c0174cf
+vendor/lib64/libgsl.so|8ed4707555159ab14b6f1a94364589c20fa128cc
+vendor/lib64/libkcl.so|7aec2fb40c892517dc29a46a53b8578ba5bd5207
+vendor/lib64/libkernelmanager.so|020570319f0980c97d44efb8f00ee8df0b030f9d
+vendor/lib64/libllvm-glnext.so|45218cac454ceef9291027757d58399aa2e68e2a
+vendor/lib64/libllvm-qcom.so|210fdef3513ca2dc022e54b50779c0024a6c6730
+vendor/lib64/libllvm-qgl.so|7e6b2e061ebe41bf8e37f96a2ba60bcc2c7e73ba
+
+# Graphics (Vulkan) - from CLO 615.80
+vendor/lib64/hw/vulkan.adreno.so|7742d95240f4dc244d0455321414c786f4ddc0e7
 
 # HotwordEnrollment - from haydn V14.0.3.0.TKKMIXM
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|8ade0dc8f37d68d7e7deaf162cf8badded474673
