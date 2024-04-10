@@ -23,11 +23,13 @@ import com.android.settingslib.widget.R;
 
 public class ClearSpeakerActivity extends CollapsingToolbarBaseActivity {
 
+    private static final String TAG_CLEARSPEAKER = "clearspeaker";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getFragmentManager().beginTransaction()
-                .replace(R.id.content_frame, new ClearSpeakerFragment())
-                .commit();
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
+                new ClearSpeakerFragment(), TAG_CLEARSPEAKER).commit();
     }
 }
