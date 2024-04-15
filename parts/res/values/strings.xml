@@ -133,5 +133,5 @@
     <string name="refresh_summary">Adjust per-app maximum refresh rate</string>
     <string name="refresh_default">Default</string>
     <string name="refresh_standard">60 Hz</string>
-    <string name="refresh_extreme">120 Hz</string>
+    <string name="refresh_extreme">90 Hz</string>
 </resources>

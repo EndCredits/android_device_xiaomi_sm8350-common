@@ -198,7 +198,7 @@ public class RefreshSettingsFragment extends PreferenceFragmentCompat
             case RefreshUtils.STATE_STANDARD:
                 return R.drawable.ic_refresh_60;
             case RefreshUtils.STATE_EXTREME:
-                return R.drawable.ic_refresh_120;
+                return R.drawable.ic_refresh_max;
             case RefreshUtils.STATE_DEFAULT:
             default:
                 return R.drawable.ic_refresh_default;

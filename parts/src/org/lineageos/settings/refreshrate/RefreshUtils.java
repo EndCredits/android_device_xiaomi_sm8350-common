@@ -38,9 +38,9 @@ public final class RefreshUtils {
     protected static final int STATE_STANDARD = 1;
     protected static final int STATE_EXTREME = 2;
 
-    private static final float REFRESH_STATE_DEFAULT = 120f;
+    private static final float REFRESH_STATE_DEFAULT = 90f;
     private static final float REFRESH_STATE_STANDARD = 60f;
-    private static final float REFRESH_STATE_EXTREME = 120f;
+    private static final float REFRESH_STATE_EXTREME = 90f;
 
     private static final String REFRESH_STANDARD = "refresh.standard=";
     private static final String REFRESH_EXTREME = "refresh.extreme=";
