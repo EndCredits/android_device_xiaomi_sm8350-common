@@ -1,37 +1,8 @@
-type vendor_sysfs_double_tap, sysfs_type, fs_type;
-type vendor_touchfeature_device, dev_type;
-type vendor_sysfs_crtc, sysfs_type, fs_type;
+allow hal_power_default sysfs_msm_subsys:dir search;
+allow hal_power_default sysfs_msm_subsys:file rw_file_perms;
 
-allow hal_power_default vendor_sysfs_double_tap:file rw_file_perms;
-allow hal_power_default vendor_touchfeature_device:chr_file rw_file_perms;
+allow hal_power_default sysfs_touchpanel:dir search;
+allow hal_power_default sysfs_touchpanel:file rw_file_perms;
 
-# Allow Power HAL to read and write to sysfs_touchpanel
-allow hal_power_default sysfs_touchpanel:{
-  file
-  lnk_file
-} rw_file_perms;
-
-allow hal_power_default vendor_sysfs_kgsl:lnk_file rw_file_perms;
-
-allow hal_power_default {
-  input_device
-  vendor_latency_device
-}:chr_file rw_file_perms;
-
-allow hal_power_default {
-  cgroup
-  sysfs_devices_system_cpu
-  vendor_sysfs_devfreq
-  vendor_sysfs_kgsl
-  vendor_sysfs_scsi_host
-  vendor_sysfs_crtc
-}:file rw_file_perms;
-
-allow hal_power_default {
-  cgroup
-  input_device
-  vendor_sysfs_devfreq
-  vendor_sysfs_crtc
-}:dir r_dir_perms;
-
-set_prop(hal_power_default, vendor_power_prop)
+# To do powerhint on nodes defined in powerhint.json
+allow hal_power_default vendor_latency_device:chr_file rw_file_perms;
