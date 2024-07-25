@@ -472,6 +472,12 @@ PRODUCT_PACKAGES += \
     libjsoncpp.vendor \
     libsqlite.vendor
 
+# Build logcat module for debug
+ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.logcat.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.logcat.rc
+endif
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi-multihal \
