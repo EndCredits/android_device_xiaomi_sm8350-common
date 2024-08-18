@@ -122,9 +122,6 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
-# Consumer IR
-vendor/lib64/hw/consumerir.lahaina.so
-
 # Diag HAL - from qti
 vendor/bin/diag-router|6b1ea2db30c3c31f5a29b84e26c9e62b3383d505
 vendor/etc/init/vendor.qti.diag.rc|0d851631208906b3972b16e1683f07d5582e0030
