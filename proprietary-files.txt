@@ -10,9 +10,11 @@ vendor/lib64/libadsprpc.so
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib64/soundfx/libmisoundfx.so
+
+# Audio FX modules (MiSound) - from MIUI CN V14.0.12.0
+vendor/lib/soundfx/libmisoundfx.so|8a22aef68fe8f46e9712034d5c6c4cc682fd1876
+vendor/lib64/soundfx/libmisoundfx.so|6b711a60b8bfde46848d547552450cc42e5b5754
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
