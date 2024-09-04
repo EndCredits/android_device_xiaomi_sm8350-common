@@ -16,7 +16,6 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.camera.NfcCameraService;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
@@ -42,11 +41,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
                 onBootCompleted(context);
                 break;
         }
-    }
-
-    private static void onLockedBootCompleted(Context context) {
-        // Services that don't require reading from data.
-        NfcCameraService.startService(context);
     }
 
     private static void onBootCompleted(Context context) {
