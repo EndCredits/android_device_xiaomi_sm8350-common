@@ -34,9 +34,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         Log.i(TAG, "Received intent: " + intent.getAction());
 
         switch (intent.getAction()) {
-            case Intent.ACTION_LOCKED_BOOT_COMPLETED:
-                onLockedBootCompleted(context);
-                break;
             case Intent.ACTION_BOOT_COMPLETED:
                 onBootCompleted(context);
                 break;
