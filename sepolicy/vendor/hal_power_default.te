@@ -1,4 +1,6 @@
 type vendor_sysfs_crtc, sysfs_type, fs_type;
+type vendor_touchfeature_device, dev_type;
+type vendor_sysfs_double_tap, sysfs_type, fs_type;
 
 allow hal_power_default sysfs_touchpanel:dir search;
 allow hal_power_default sysfs_touchpanel:file rw_file_perms;
