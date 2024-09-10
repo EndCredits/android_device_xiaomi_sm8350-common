@@ -162,7 +162,7 @@ BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := lahaina
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
+TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(COMMON_PATH):libperfmgr-ext-mi8350
 
 # PowerShare
 TARGET_POWERSHARE_PATH := /sys/class/qcom-battery/reverse_chg_mode

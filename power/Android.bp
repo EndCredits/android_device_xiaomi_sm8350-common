@@ -1,0 +1,17 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libperfmgr-ext-mi8350",
+    vendor: true,
+    srcs: [
+        "power-mode.cpp",
+    ],
+    shared_libs: [
+        "android.hardware.power-V4-ndk",
+        "libbase",
+    ],
+}
