@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from haydn V816.0.2.0.UKKMIXM
+# All unpinned blobs below are extracted from haydn V816.0.1.0.UKKCNXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -304,11 +304,11 @@ vendor/lib64/libgsl.so|b69da9770862b7a0bbed07fd69e447a3d2ab1c71
 vendor/lib64/libllvm-glnext.so|30639c5f2fa4545667134cb5231d205ad5eb8a41
 vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
 
-# HotwordEnrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+# HotwordEnrollment - from haydn V14.0.7.0.TKKMIXM
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|8ade0dc8f37d68d7e7deaf162cf8badded474673
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|ecb7a72da92f5fdbf8b842f6fd0043623f508f5e
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|9ad8db8e39c477fcc298f109ab39022c1970167e
 
 # IMS
 system_ext/lib64/lib-imsvideocodec.so
