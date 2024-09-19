@@ -1,2 +1,5 @@
 # Power
 set_prop(vendor_init, vendor_power_prop)
+
+# Thermal
+set_prop(vendor_init, vendor_xm_thermal_prop)
