@@ -81,6 +81,7 @@ function blob_fixup() {
         vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
             [ "$2" = "" ] && return 0
             sed -ni '/ozoaudio/!p' "${2}"
+            sed -ni '/dolby/!p' "${2}"
             ;;
         vendor/lib64/android.hardware.secure_element@1.0-impl.so)
             [ "$2" = "" ] && return 0
