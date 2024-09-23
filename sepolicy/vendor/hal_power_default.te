@@ -11,3 +11,6 @@ allow hal_power_default vendor_latency_device:chr_file rw_file_perms;
 # To enable display early wakeup feature
 allow hal_power_default vendor_sysfs_crtc:file rw_file_perms;
 allow hal_power_default vendor_sysfs_crtc:dir r_dir_perms;
+
+# Allow power HAL to access xiaomi-touch to provide dt2w service
+allow hal_power_default vendor_touchfeature_device:chr_file rw_file_perms;
