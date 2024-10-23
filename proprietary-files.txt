@@ -136,7 +136,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/bin/diag-router|6b1ea2db30c3c31f5a29b84e26c9e62b3383d505
 vendor/etc/init/vendor.qti.diag.rc|0d851631208906b3972b16e1683f07d5582e0030
 -vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml|cd7745bb829bc9bfb8a23ba779c796384e9b3835
-vendor/lib64/vendor.qti.diaghal@1.0.so|597f6881dc5eee4d80be27c5ca5dfcb92a52f46e
+vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=-vendor|597f6881dc5eee4d80be27c5ca5dfcb92a52f46e
 
 # Display - from XQ-BC72 61.2.A.0.410
 vendor/etc/display/DPU660.xml|b26dd73e361546d89bf3d7082a471703dc6ac2cb
